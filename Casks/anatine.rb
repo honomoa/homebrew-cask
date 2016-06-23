@@ -1,10 +1,10 @@
 cask 'anatine' do
-  version '0.2.0'
-  sha256 '0d344fb9315979b05904d3a69032d89d59690bf74c1f8283acd4a1223b71828e'
+  version '0.5.0'
+  sha256 '23d6a34fcfdb11224ab98efac66ae91ecbdfdff8462d59acbfc798b3f3a56892'
 
   url "https://github.com/sindresorhus/anatine/releases/download/#{version}/Anatine-osx-#{version}.zip"
   appcast 'https://github.com/sindresorhus/anatine/releases.atom',
-          checkpoint: '95c1da5e09b21b75924896f8eafaeb4ed260d41d56fed07dc947c19d32fe3d1f'
+          checkpoint: 'c8496d78f0b9eae22722dcb5839d5a66ec8f7d117d561b217b737f0ff1b4b151'
   name 'Anatine'
   homepage 'https://github.com/sindresorhus/anatine'
   license :mit
